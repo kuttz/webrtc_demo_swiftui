@@ -11,6 +11,18 @@
 		5BCF7866293B955C00F8521E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7865293B955C00F8521E /* ContentView.swift */; };
 		5BCF7868293B955D00F8521E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF7867293B955D00F8521E /* Assets.xcassets */; };
 		5BCF786B293B955D00F8521E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF786A293B955D00F8521E /* Preview Assets.xcassets */; };
+		5BCF7872293B960200F8521E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7871293B960200F8521E /* WebSocket.swift */; };
+		5BCF7875293B96D400F8521E /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 5BCF7874293B96D400F8521E /* WebRTC */; };
+		5BCF7877293B96F400F8521E /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7876293B96F400F8521E /* SignalingClient.swift */; };
+		5BCF7879293B975B00F8521E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7878293B975B00F8521E /* Message.swift */; };
+		5BCF787B293B979100F8521E /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF787A293B979100F8521E /* RTCStates.swift */; };
+		5BCF787D293B97B000F8521E /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF787C293B97B000F8521E /* SessionDescription.swift */; };
+		5BCF787F293B97D100F8521E /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF787E293B97D100F8521E /* IceCandidate.swift */; };
+		5BCF7881293B988500F8521E /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7880293B988500F8521E /* WebRTCClient.swift */; };
+		5BCF7883293B997000F8521E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7882293B997000F8521E /* Config.swift */; };
+		5BCF7885293B9C8A00F8521E /* ConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7884293B9C8A00F8521E /* ConnectionModel.swift */; };
+		5BCF7889293BB12800F8521E /* RendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF7888293BB12800F8521E /* RendererView.swift */; };
+		5BCF788B293BBCEF00F8521E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF788A293BBCEF00F8521E /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,17 @@
 		5BCF7865293B955C00F8521E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BCF7867293B955D00F8521E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCF786A293B955D00F8521E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BCF7871293B960200F8521E /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		5BCF7876293B96F400F8521E /* SignalingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
+		5BCF7878293B975B00F8521E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5BCF787A293B979100F8521E /* RTCStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCStates.swift; sourceTree = "<group>"; };
+		5BCF787C293B97B000F8521E /* SessionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
+		5BCF787E293B97D100F8521E /* IceCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
+		5BCF7880293B988500F8521E /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		5BCF7882293B997000F8521E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5BCF7884293B9C8A00F8521E /* ConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionModel.swift; sourceTree = "<group>"; };
+		5BCF7888293BB12800F8521E /* RendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendererView.swift; sourceTree = "<group>"; };
+		5BCF788A293BBCEF00F8521E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCF7875293B96D400F8521E /* WebRTC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				5BCF7863293B955C00F8521E /* WebRTC_Demo_SwiftUIApp.swift */,
-				5BCF7865293B955C00F8521E /* ContentView.swift */,
+				5BCF7882293B997000F8521E /* Config.swift */,
+				5BCF78B1293CAE0F00F8521E /* Views */,
+				5BCF7886293BAA4000F8521E /* ViewModel */,
+				5BCF7887293BAA5300F8521E /* Model */,
 				5BCF7867293B955D00F8521E /* Assets.xcassets */,
 				5BCF7869293B955D00F8521E /* Preview Content */,
 			);
@@ -65,6 +92,38 @@
 				5BCF786A293B955D00F8521E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BCF7886293BAA4000F8521E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF7871293B960200F8521E /* WebSocket.swift */,
+				5BCF7876293B96F400F8521E /* SignalingClient.swift */,
+				5BCF7880293B988500F8521E /* WebRTCClient.swift */,
+				5BCF7884293B9C8A00F8521E /* ConnectionModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BCF7887293BAA5300F8521E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF7878293B975B00F8521E /* Message.swift */,
+				5BCF787A293B979100F8521E /* RTCStates.swift */,
+				5BCF787C293B97B000F8521E /* SessionDescription.swift */,
+				5BCF787E293B97D100F8521E /* IceCandidate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BCF78B1293CAE0F00F8521E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF7865293B955C00F8521E /* ContentView.swift */,
+				5BCF788A293BBCEF00F8521E /* VideoView.swift */,
+				5BCF7888293BB12800F8521E /* RendererView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +142,9 @@
 			dependencies = (
 			);
 			name = "WebRTC-Demo-SwiftUI";
+			packageProductDependencies = (
+				5BCF7874293B96D400F8521E /* WebRTC */,
+			);
 			productName = "WebRTC-Demo-SwiftUI";
 			productReference = 5BCF7860293B955C00F8521E /* WebRTC-Demo-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 5BCF7857293B955C00F8521E;
+			packageReferences = (
+				5BCF7873293B96D400F8521E /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
 			productRefGroup = 5BCF7861293B955C00F8521E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +203,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BCF7866293B955C00F8521E /* ContentView.swift in Sources */,
+				5BCF787D293B97B000F8521E /* SessionDescription.swift in Sources */,
+				5BCF7872293B960200F8521E /* WebSocket.swift in Sources */,
+				5BCF7889293BB12800F8521E /* RendererView.swift in Sources */,
+				5BCF787F293B97D100F8521E /* IceCandidate.swift in Sources */,
+				5BCF7879293B975B00F8521E /* Message.swift in Sources */,
+				5BCF7881293B988500F8521E /* WebRTCClient.swift in Sources */,
+				5BCF787B293B979100F8521E /* RTCStates.swift in Sources */,
+				5BCF7883293B997000F8521E /* Config.swift in Sources */,
 				5BCF7864293B955C00F8521E /* WebRTC_Demo_SwiftUIApp.swift in Sources */,
+				5BCF7877293B96F400F8521E /* SignalingClient.swift in Sources */,
+				5BCF7885293B9C8A00F8521E /* ConnectionModel.swift in Sources */,
+				5BCF788B293BBCEF00F8521E /* VideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +346,14 @@
 				DEVELOPMENT_TEAM = 7R349V9T6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Record video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +378,14 @@
 				DEVELOPMENT_TEAM = 7R349V9T6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Record video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BCF7873293B96D400F8521E /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 107.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BCF7874293B96D400F8521E /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BCF7873293B96D400F8521E /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BCF7858293B955C00F8521E /* Project object */;
 }
